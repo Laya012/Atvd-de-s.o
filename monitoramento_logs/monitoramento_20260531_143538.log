@@ -1,0 +1,54 @@
+
+📊 RELATÓRIO DE MONITORAMENTO - 31/05/2026 14:35:38
+═══════════════════════════════════════════════════════════════
+
+🖥️  INFORMAÇÕES DO SISTEMA:
+─────────────────────────────────────────────────────────────
+   Hostname: DESKTOP-8V1AE85
+   Usuário: aurudo67
+   Data/Hora: 31/05/2026 14:35:38
+   Sistema: Linux DESKTOP-8V1AE85 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025 x86_64 GNU/Linux
+   Uptime: up 2 hours, 39 minutes
+
+💾 MEMÓRIA RAM:
+─────────────────────────────────────────────────────────────
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       504Mi       3.2Gi       3.5Mi       263Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+⚡ CARGA DA CPU:
+─────────────────────────────────────────────────────────────
+top - 14:35:38 up  2:39,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  29 total,   1 running,  28 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 97.7 id,  2.3 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3893.1 total,   3268.2 free,    505.2 used,    263.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3387.9 avail Mem 
+
+💿 ESPAÇO EM DISCO:
+─────────────────────────────────────────────────────────────
+/dev/sdd       1007G  1.3G  955G   1% /
+
+🔥 TOP 5 PROCESSOS (CPU):
+─────────────────────────────────────────────────────────────
+aurudo67    1981  100  0.1   7152  4288 pts/3    R+   14:35   0:00 ps aux --sort=-%cpu
+aurudo67    1982  100  0.1  16296  7644 pts/3    S+   14:35   0:00 head -6
+aurudo67    1983  100  0.1  16240  7276 pts/3    R+   14:35   0:00 tail -5
+root        1423  0.1  0.0   3196  1252 ?        S    14:02   0:02 /init
+root           6  0.0  0.0   3236  2176 hvc0     Sl+  11:56   0:04 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+
+📈 TOP 5 PROCESSOS (MEMÓRIA):
+─────────────────────────────────────────────────────────────
+root         210  0.0  0.8 123440 32104 ?        Ssl  11:56   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         169  0.0  0.7  44076 29480 ?        Ss   11:56   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          65  0.0  0.4  50396 16528 ?        S<s  11:56   0:00 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.3  24696 15388 ?        Ss   11:56   0:01 /sbin/init
+root        1892  0.0  0.3 1792292 14512 ?       Ssl  14:31   0:00 /usr/libexec/wsl-pro-service
+
+🌐 CONEXÕES DE REDE:
+─────────────────────────────────────────────────────────────
+
+🧟 PROCESSOS ZOMBIE:
+─────────────────────────────────────────────────────────────
+   Total de processos zombie: 0
+
+═══════════════════════════════════════════════════════════════
